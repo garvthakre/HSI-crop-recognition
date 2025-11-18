@@ -1,0 +1,82 @@
+ 
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+WHU_Hi_LongKou.mat
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+.coverage
+coverage.xml
+htmlcov/
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# MyPy & Pylint
+.mypy_cache/
+.pylint.d/
+
+# Database
+*.db
+*.sqlite3
+
+# Environment variables / secrets
+.env
+.env.*
+*.env
+
+# Logs
+logs/
+*.log
+
+# =========================================
+# Docker
+# =========================================
+
+# Docker files that shouldn't be tracked
+docker-compose.override.yml
+
+# Ignore build output
+docker-data/
+docker-volume/
+volumes/
+
+# =========================================
+# OS / Editor files
+# =========================================
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm / JetBrains
+.idea/
+
+# =========================================
+# Misc
+# =========================================
+*.tmp
+*.bak
