@@ -9,7 +9,7 @@ dist/
 *.egg-info/
 .eggs/
 *.egg
-WHU_Hi_LongKou.mat
+ 
 # Virtual environments
 venv/
 .venv/
