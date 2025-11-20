@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  hsi-classifier:
+    build: .
+    image: hsi-crop-classifier:latest
+    volumes:
+      # Mount input data directory
+      - ./input:/app/input
+      # Mount output directory
+      - ./output:/app/output
+    command: >
+      python src/run_scene.py
+      --model models/crop_classifier_final.pth
+      --mat /app/input/scene.mat
+      --out /app/output/pred_map.npy
